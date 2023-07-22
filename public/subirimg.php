@@ -29,9 +29,6 @@ if($_SERVER["REQUEST_METHOD"]== "POST"){
    
 }
 
-
-
-
 //cierra la conexion
 $mysqli->close();
 /* header("Location: login.php"); */
