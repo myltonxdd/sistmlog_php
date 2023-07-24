@@ -12,8 +12,8 @@
 </head>
 <body>
     <div class="flex flex-col w-screen h-screen pt-6 px-6 gap-5 items-center">
-        <div class="md:border md:rounded-xl md:w-2/6 sm:px-8 sm:py-6 sm:mt-6">
-            <div class="flex flex-col gap-4 sm:gap-3">
+        <div class="md:border md:rounded-xl md:w-[27rem] sm:px-8 sm:py-6 sm:mt-14">
+            <div class="flex flex-col gap-4 ">
                 <div><img src="./recursos/devcha.svg" alt=""></div>
                 <h3 class="text-lg font-semibold">join thousands of learners from around the world</h3>
                 <p class="text-base">Master web development by making real-life projects. There are multiple paths for you to choose</p>
@@ -31,7 +31,7 @@
                 
                 <input type="submit" value="Start coding now" class="bg-blue-600 font-semibold text-lg rounded-md text-white mt-4 sm:mt-2 h-11"/>
             </form>
-            <div class="flex flex-col items-center w-full gap-6 sm:gap-3 pt-3">
+            <div class="flex flex-col items-center w-full gap-6 pt-3">
                 <span class="text-[#828282] text-sm font-normal">or continue with these social profile</span>
                 <div class="flex flex-row gap-2 justify-center">
                     <a href="https://www.google.com/" class="border-zinc-500 border rounded-full p-2">

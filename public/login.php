@@ -8,7 +8,7 @@
 </head>
 <body>
 <div class="flex flex-col w-screen h-screen pt-6 px-6 gap-5 items-center">
-    <div class="md:border md:rounded-xl md:w-2/6 sm:px-8 sm:py-6 sm:mt-6 w-full">
+    <div class="sm:border sm:rounded-xl sm:w-[27rem] sm:h-[33.5rem] sm:flex sm:justify-between sm:flex-col sm:px-8 sm:py-6 sm:mt-14">
         <div class="flex flex-col gap-4 justify-start w-full">
             <div><img src="./recursos/devcha.svg" alt=""></div>
             <h3 class="text-lg font-semibold">Login</h3>

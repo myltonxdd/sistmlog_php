@@ -93,27 +93,27 @@
 
                     <div class="flex flex-col">
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Enter your name..." class="border border-stone-400 rounded-lg h-9 p-1" />
+                        <input type="text" id="name" name="name" placeholder="Enter your name..." class="border border-stone-400 rounded-lg h-9 p-1 w-3/5" />
                     </div>
 
                     <div class="flex flex-col">
                         <label for="bio">Bio</label>
-                        <input type="text" id="bio" name="bio" placeholder="Enter your bio..." class="border border-stone-400 rounded-lg h-20 p-1" />
+                        <input type="text" id="bio" name="bio" placeholder="Enter your bio..." class="border border-stone-400 rounded-lg h-20 p-1 w-3/5" />
                     </div>
 
                     <div class="flex flex-col">
                         <label for="phone">Phone</label>
-                        <input type="numeric" id="phone" name="phone" placeholder="Enter your phone..." class="border border-stone-400 rounded-lg h-9 p-1" />
+                        <input type="numeric" id="phone" name="phone" placeholder="Enter your phone..." class="border border-stone-400 rounded-lg h-9 p-1 w-3/5" />
                     </div>
 
                     <div class="flex flex-col">
                         <label for="email">Email</label>
-                        <input type="email" id="email" required name="email" placeholder="Enter your email..." class="border border-stone-400 rounded-lg h-9 p-1" />
+                        <input type="email" id="email" required name="email" placeholder="Enter your email..." class="border border-stone-400 rounded-lg h-9 p-1 w-3/5" />
                     </div>
 
                     <div class="flex flex-col">
                         <label for="pasword">Password</label>
-                        <input type="password" id="pasword" required name="pasword" placeholder="Enter your password..." class="border border-stone-400 rounded-lg h-9 p-1" />
+                        <input type="password" id="pasword" required name="pasword" placeholder="Enter your password..." class="border border-stone-400 rounded-lg h-9 p-1 w-3/5" />
                     </div>
 
                     <input type="submit" value="Save" class="bg-blue-600 rounded-lg text-white h-9 w-24" />
