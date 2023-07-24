@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,9 +20,12 @@
                 <p class="text-base">Master web development by making real-life projects. There are multiple paths for you to choose</p>
             </div>
             <form class="flex flex-col w-full gap-3 pt-5 sm:pt-3" action="metodo_get.php" method="post">
+                <?php if(isset($_SESSION["error_correo"])){
+                print("<p class='text-red-600 text-sm'>".$_SESSION["error_correo"]."</p>");
+                unset($_SESSION["error_correo"]);}?>
                 <div class="flex flex-raw border rounded-md h-11 focus-within:border-2">
                     <img src="./recursos/sobre.svg" alt="">
-                    <input type="email" id="correo" name="email" placeholder="Email" class="border-none outline-none" />
+                    <input type="email" id="correo" name="email" placeholder="Email" class="border-none outline-none w-full" />
                 </div>
 
                 <div class="flex flex-raw border rounded-md h-11 focus-within:border-2">
@@ -48,7 +52,7 @@
                     </a>
                     
                 </div>
-                <span class="text-[#828282] text-sm font-normal">Adready a member? <a href="login.php" class="text-blue-600">Login</a></span>
+                <span class="text-[#828282] text-sm font-normal ">Adready a member? <a href="login.php" class="text-blue-600">Login</a></span>
             </div>
         </div>
         <div class="flex flex-row justify-between font-normal text-sm w-full text-[#BDBDBD] pt-10 sm:pt-0 sm:w-2/6">
@@ -58,6 +62,7 @@
         
 
     </div>
+    
 
 
 </body>
